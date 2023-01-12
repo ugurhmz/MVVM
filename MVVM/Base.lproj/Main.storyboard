@@ -81,7 +81,7 @@
         <!--HomeVC-->
         <scene sceneID="csB-Xd-p0q">
             <objects>
-                <viewController id="w6T-KL-RM1" customClass="HomeVC" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="w6T-KL-RM1" customClass="HomeVC" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WSI-LL-kMo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

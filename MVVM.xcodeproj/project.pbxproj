@@ -14,6 +14,11 @@
 		AA88E347297034C100512DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA88E346297034C100512DC9 /* Assets.xcassets */; };
 		AA88E34A297034C100512DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA88E348297034C100512DC9 /* LaunchScreen.storyboard */; };
 		AA88E352297036F000512DC9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E351297036F000512DC9 /* HomeVC.swift */; };
+		AA88E354297037CC00512DC9 /* ObserverObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E353297037CC00512DC9 /* ObserverObject.swift */; };
+		AA88E3562970384000512DC9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E3552970384000512DC9 /* NetworkService.swift */; };
+		AA88E3582970385B00512DC9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E3572970385B00512DC9 /* UserModel.swift */; };
+		AA88E35A297039BB00512DC9 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E359297039BB00512DC9 /* LoginVM.swift */; };
+		AA88E35C29703AFD00512DC9 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88E35B29703AFD00512DC9 /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		AA88E349297034C100512DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA88E34B297034C100512DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA88E351297036F000512DC9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AA88E353297037CC00512DC9 /* ObserverObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverObject.swift; sourceTree = "<group>"; };
+		AA88E3552970384000512DC9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AA88E3572970385B00512DC9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AA88E359297039BB00512DC9 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		AA88E35B29703AFD00512DC9 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				AA88E346297034C100512DC9 /* Assets.xcassets */,
 				AA88E348297034C100512DC9 /* LaunchScreen.storyboard */,
 				AA88E34B297034C100512DC9 /* Info.plist */,
+				AA88E353297037CC00512DC9 /* ObserverObject.swift */,
+				AA88E3552970384000512DC9 /* NetworkService.swift */,
+				AA88E3572970385B00512DC9 /* UserModel.swift */,
+				AA88E359297039BB00512DC9 /* LoginVM.swift */,
+				AA88E35B29703AFD00512DC9 /* HomeVM.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -141,9 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA88E354297037CC00512DC9 /* ObserverObject.swift in Sources */,
+				AA88E3582970385B00512DC9 /* UserModel.swift in Sources */,
 				AA88E342297034BF00512DC9 /* LoginVC.swift in Sources */,
+				AA88E35C29703AFD00512DC9 /* HomeVM.swift in Sources */,
 				AA88E352297036F000512DC9 /* HomeVC.swift in Sources */,
+				AA88E35A297039BB00512DC9 /* LoginVM.swift in Sources */,
 				AA88E33E297034BF00512DC9 /* AppDelegate.swift in Sources */,
+				AA88E3562970384000512DC9 /* NetworkService.swift in Sources */,
 				AA88E340297034BF00512DC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
